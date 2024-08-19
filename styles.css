@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.dice-app {
+    text-align: center;
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.dice-display {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.dice {
+    font-size: 5rem;
+    margin: 0 10px;
+    opacity: 0; /* Initially hide the dice */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.result-display {
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
